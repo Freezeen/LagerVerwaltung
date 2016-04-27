@@ -55,6 +55,9 @@
     <Compile Include="Lagerverwaltung.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmLagerverwaltung.aa-ET.resx">
+      <DependentUpon>frmLagerverwaltung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLagerverwaltung.resx">
       <DependentUpon>frmLagerverwaltung.cs</DependentUpon>
     </EmbeddedResource>

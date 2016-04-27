@@ -24,18 +24,18 @@ namespace Lagerverwaltung
 
         private void frmGameLauncher_FormClosing(object sender, FormClosingEventArgs e)
         {
-            try
-            {
-                DialogResult result = MessageBox.Show("Soll die Anwendung beendet werden?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.None, MessageBoxDefaultButton.Button1);
-                if (result == DialogResult.No)
-                    e.Cancel = true;
-                else
-                    Funktionen.DateiSpeichern("Lagerdaten.csv");
-            }
-            catch
-            {
-                MessageBox.Show("Die Daten konnten nicht gespeichert werden \noder es sind keine Daten verhanden.", Application.ProductName);
-            }
+            //try
+            //{
+            //    DialogResult result = MessageBox.Show("Soll die Anwendung beendet werden?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.None, MessageBoxDefaultButton.Button1);
+            //    if (result == DialogResult.No)
+            //        e.Cancel = true;
+            //    else
+            //        Funktionen.DateiSpeichern("Lagerdaten.csv");
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Die Daten konnten nicht gespeichert werden \noder es sind keine Daten verhanden.", Application.ProductName);
+            //}
 
         }
 

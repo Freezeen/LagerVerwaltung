@@ -42,100 +42,69 @@
             // 
             // btnHinzufügen
             // 
+            resources.ApplyResources(this.btnHinzufügen, "btnHinzufügen");
             this.btnHinzufügen.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnHinzufügen.Location = new System.Drawing.Point(12, 43);
             this.btnHinzufügen.Name = "btnHinzufügen";
-            this.btnHinzufügen.Size = new System.Drawing.Size(75, 23);
-            this.btnHinzufügen.TabIndex = 1;
-            this.btnHinzufügen.Text = "Hinzufügen";
             this.btnHinzufügen.UseVisualStyleBackColor = true;
             // 
             // btnEntfernen
             // 
+            resources.ApplyResources(this.btnEntfernen, "btnEntfernen");
             this.btnEntfernen.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnEntfernen.Location = new System.Drawing.Point(163, 43);
             this.btnEntfernen.Name = "btnEntfernen";
-            this.btnEntfernen.Size = new System.Drawing.Size(75, 23);
-            this.btnEntfernen.TabIndex = 2;
-            this.btnEntfernen.Text = "Entfernen";
             this.btnEntfernen.UseVisualStyleBackColor = true;
             // 
             // lblOrt
             // 
-            this.lblOrt.AutoSize = true;
+            resources.ApplyResources(this.lblOrt, "lblOrt");
             this.lblOrt.BackColor = System.Drawing.Color.Transparent;
-            this.lblOrt.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrt.ForeColor = System.Drawing.Color.Black;
-            this.lblOrt.Location = new System.Drawing.Point(9, 76);
+            this.lblOrt.ForeColor = System.Drawing.Color.White;
             this.lblOrt.Name = "lblOrt";
-            this.lblOrt.Size = new System.Drawing.Size(97, 18);
-            this.lblOrt.TabIndex = 4;
-            this.lblOrt.Text = "Lagerstandort:";
             this.lblOrt.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblLagergröße
             // 
-            this.lblLagergröße.AutoSize = true;
+            resources.ApplyResources(this.lblLagergröße, "lblLagergröße");
             this.lblLagergröße.BackColor = System.Drawing.Color.Transparent;
-            this.lblLagergröße.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLagergröße.ForeColor = System.Drawing.Color.Black;
-            this.lblLagergröße.Location = new System.Drawing.Point(9, 102);
+            this.lblLagergröße.ForeColor = System.Drawing.Color.White;
             this.lblLagergröße.Name = "lblLagergröße";
-            this.lblLagergröße.Size = new System.Drawing.Size(81, 18);
-            this.lblLagergröße.TabIndex = 5;
-            this.lblLagergröße.Text = "Lagergröße:";
             this.lblLagergröße.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(9, 128);
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 18);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Bestand:";
             // 
             // tbxLagerort
             // 
-            this.tbxLagerort.Location = new System.Drawing.Point(112, 73);
+            resources.ApplyResources(this.tbxLagerort, "tbxLagerort");
             this.tbxLagerort.Name = "tbxLagerort";
-            this.tbxLagerort.Size = new System.Drawing.Size(126, 20);
-            this.tbxLagerort.TabIndex = 8;
             // 
             // tbxLagergröße
             // 
-            this.tbxLagergröße.Location = new System.Drawing.Point(112, 99);
+            resources.ApplyResources(this.tbxLagergröße, "tbxLagergröße");
             this.tbxLagergröße.Name = "tbxLagergröße";
-            this.tbxLagergröße.Size = new System.Drawing.Size(126, 20);
-            this.tbxLagergröße.TabIndex = 9;
             // 
             // tbxLagerbestand
             // 
-            this.tbxLagerbestand.Location = new System.Drawing.Point(112, 125);
+            resources.ApplyResources(this.tbxLagerbestand, "tbxLagerbestand");
             this.tbxLagerbestand.Name = "tbxLagerbestand";
-            this.tbxLagerbestand.Size = new System.Drawing.Size(56, 20);
-            this.tbxLagerbestand.TabIndex = 10;
             this.tbxLagerbestand.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // cbxLager
             // 
+            resources.ApplyResources(this.cbxLager, "cbxLager");
             this.cbxLager.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxLager.FormattingEnabled = true;
-            this.cbxLager.Location = new System.Drawing.Point(12, 12);
             this.cbxLager.Name = "cbxLager";
-            this.cbxLager.Size = new System.Drawing.Size(226, 21);
-            this.cbxLager.TabIndex = 12;
             // 
             // frmLagerverwaltung
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(268, 265);
             this.Controls.Add(this.cbxLager);
             this.Controls.Add(this.tbxLagerbestand);
             this.Controls.Add(this.tbxLagergröße);
@@ -150,7 +119,6 @@
             this.MaximizeBox = false;
             this.Name = "frmLagerverwaltung";
             this.ShowIcon = false;
-            this.Text = "Lagerverwaltung";
             this.Load += new System.EventHandler(this.frmLagerverwaltung_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -8,32 +8,32 @@ namespace Lagerverwaltung
 {
     class Lager
     {
-        private string standort;
-        private int kapazität, aktuellerbestand;
+        //private string standort;
+        //private int kapazität, aktuellerbestand;
 
-        public int FreienPlatzBerechnen(int aktuellerbestand)
-        {
-            return;
-        }
+        //public int FreienPlatzBerechnen(int aktuellerbestand)
+        //{
+        //    return;
+        //}
 
-        public void Einkaufen()
-        {
+        //public void Einkaufen()
+        //{
 
-        }
+        //}
 
-        public void UebertragenNach()
-        {
+        //public void UebertragenNach()
+        //{
 
-        }
+        //}
 
-        public void Verkaufen()
-        {
+        //public void Verkaufen()
+        //{
 
-        }
+        //}
 
-        public void Lager()
-        {
+        //public void Lager()
+        //{
 
-        }
+        //}
     }
 }
