@@ -13,7 +13,6 @@ namespace Lagerverwaltung
 
         public int FreienPlatzBerechnen(int aktuellerbestand)
         {
-
             return;
         }
 
